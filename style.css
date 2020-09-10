@@ -1,0 +1,368 @@
+/*s'aplique à toute la page : */
+/*reset CSS*/
+/*RESET*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body{
+      font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.title1{
+	margin: 0;
+	color: #444;
+}
+.paragraph{
+	line-height: 1.5rem;
+	font-weight: 300;
+	color: #444; }
+
+/*polices*/
+/*Font-weight*/
+
+.title1, .title3, .paragraph, .title2-team, .title3-team, .title4-team, .p-team, .text3-picture-work, .number-text-facts, .date-blog, .p-blog, .time-twitter, .text-twitter, .paragraph-testimonials, .title3-withus, .paragraph-withus, .paragraph-footer, .paragraph-team, .quote-team, .nav-text, .text3-picture-work, .number-text-facts, .p-blog, .quote-blog, .paragraph-white-whithus, .locate-withus {
+	font-weight: 300;}
+.title, .quote-auteur-team, .logo-text-services, .title-blog, .read-more-blog, .quote-autor-blog,.link-blog, .autor-testimonials, .team-testimonials, .locate-withus {
+	font-weight: 700;}
+.title2, .quote-team, .number-facts, .title3-team {
+	font-weight: 800;}
+
+/*Font-size*/
+.title1 {
+	font-size: 2.25rem;}
+.title2-team, .paragraph-testimonials, .title3-withus, .text-twitter, .text3-picture-work{
+	font-size: 1.125rem;}
+.quote-team{
+	font-size: 1.875rem;}
+.paragraph, .paragraph-team .quote-auteur-team, .number-text-facts, .p-blog, .quote-autor-blog, .paragraph-withus, .paragraph-white-whithus {
+	font-size: 0.938rem;}
+.title3-team, .title4-team, .logo-text-services, .time-twitter, .paragraph-testimonials, .autor-testimonials, .team-testimonials, .paragraph-footer{
+	font-size: 0.875rem;}
+.title2, .title3, .quote-blog {
+	font-size: 1.5rem;}
+.locate-withus {
+	font-size: 1.375rem;}
+.link-blog, .title-blog{
+	font-size: 1.25rem;}
+.number-facts {
+	font-size: 3.5rem;}
+.date-blog{
+	font-size: 0.75rem;}
+.nav-text {
+	font-size: 1rem;}	
+/*line-height*/
+.number-text-facts, .logo-text-services .date-blog,.p-blog,.read-more, .quote-autor-blog,.text-twitter,.paragraph, .title3-team, .quote-auteur-team.nav-text,.date-blog .time-twitter, .title3-withus,.locate-withus,.paragraph-footer{
+	line-height: 1.5rem;}
+.paragraph-team, .paragraph-withus, .paragraph-white-whithus{
+	line-height: 1.375rem;}	
+.autor-testimonials, .paragraph-testimonials, .team-testimonials{
+	line-height: 1.875rem;}
+.title2{
+	line-height: 2rem;}
+.title3, .text3-picture-work, .quote-blog{
+	line-height: 2.25rem;}
+.title-blog, .link-blog{
+	line-height: 1.625rem;}
+.read-more{
+	font-size: 0.813rem;}
+.title2-team{
+	line-height: 2rem;}
+.title4-team{
+	line-height: 1.25rem;}
+.quote-team{
+	line-height: 3rem;}  
+#our-team{
+	background-position: center;}
+/*uppercase*/
+.title1, .title2, .title2-team, .quote-auteur-team, .number-text-facts, .logo-text-services, .title-blog, .date-blog, .read-more, .title3-team, .quote-auteur-team, .quote-blog, .quote-autor-blog, .link-blog {
+	text-transform: uppercase;}
+
+/*decoration*/
+.title1, .title3-team{
+	text-decoration: underline #FE7E17;}
+
+/*text-align*/
+.title, .title1, .title2-team, .title3-team, .title4-team, .paragraph-team, .quote-team, .quote-auteur-team, .number-facts, .number-text-facts, .text0, .text-twitter, #our-team {
+	text-align: center;}
+.paragraph {
+	text-align: left;
+}
+.read-more {
+	text-align: right;
+}
+/*couleurs*/
+.locate-withus, .paragraph-white-whithus, .quote-blog {
+	color: #FFFFFF}
+.link-twitter, .link-logo, .title3-withus, .paragraph-withus, .autor-testimonials, .read-more, .title3-team{
+	color: #FE7E17;}
+.date-blog, .quote-autor-blog{
+	color:#A3A2A2;}	
+.p-blog{
+	color: #686868}
+.title1{
+	color: #444;}
+
+/*images et backgrounds*/
+#hello{
+	background-color:#FAFAFA;}
+#quote{
+	background-image: url("Images/blog/parallax-quote-min.jpg");
+	background-color: rgba(0,0,0,0.70);
+	background-size: cover;
+	background-position: center;
+	max-width: 100%;
+	height: 31rem;}
+#our-team{
+	background-position: center;
+    display: grid ;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.block1{
+	grid-column-start: 1; 
+    grid-column-end: 1; 
+    grid-row-start: 1; 
+    grid-row-end: 1; 
+}
+
+
+#background-services{
+	background-image: url("Images/blog/parallax-services1-min.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	max-width: 100%;
+	height: auto;}
+#twitter-feed {
+	background-image: url("Images/blog/twitter1.png");
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100%;
+	opacity: 1;
+	visibility: inherit;}
+#patti-studio{
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100%;
+	opacity: 1;
+	visibility: inherit; }
+#background-withus{
+	background-image: url("Images/blog/bureau.jpg");
+	background-color: rgba(0,0,0,0.50);
+	background-repeat: no-repeat;}
+#background-locate-us{
+	background-color: #444;}
+#background-testimonials{
+	background-color: #FE7E17;
+	background-position: center;}
+.background-enterprises {
+	background-color:rgba(254,126,23,1);}
+.background-serv{
+background-color: rgba(255,255,255,0.70);}
+.number-text-facts {
+	clear: both;}
+.picture-work {
+	opacity: 0.9}
+.title{
+	line-height: 1rem;
+	color:white;}
+
+/*menu mobile first*/
+.menu{
+	display: none;
+}
+.menu-checkbox:checked ~ .menu{
+	display: block;
+}
+
+/*sidebar*/
+.container{
+  width: 65%;
+  margin: 0 auto;
+}
+@keyframes load{
+	from{
+		width: 0%
+	}
+}
+@-webkit-keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-moz-keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-o-keyframes load{
+  from {
+    width: 0%
+  }
+}
+.bar{
+  background-color: #EEE;
+  padding: 2px;
+  border-radius: 15px;
+  margin-bottom: 0.313rem;
+  font-size: 0.875rem;
+  color: #FFF;
+  font-weight: bold;
+  text-shadow: 0.063rem 0.063rem 0.063rem rgba(0,0,0,0.5);}
+.bar::before{
+  content:  attr(data-skill);
+  background-color: #f3b0ff;
+  display: inline-block;
+  padding: 0.313rem 0 0.313rem 0.625rem;
+  border-radius: inherit;
+  animation: load 2s 0s;
+  -webkit-animation: load 2s 0s;
+  -moz-animation: load 2s 0s;
+  -o-animation: load 2s 0s;}
+.bar.front::before{
+  background-color: #ffcc33;}
+.bar.basic::before{
+  width: calc(45% - 0.625rem);}
+.bar.advanced::before{
+  width: calc(65% - 0.625rem);}
+.bar.expert::before{
+  width: calc(95% - 0.625rem);}
+
+/*hover*/
+.fa-rss:hover, .fa-facebook:hover, .fa-twitter:hover, .fa-microphone:hover, .fa-cogs:hover, .fa-camera-retro:hover, .fa-clock:hover, .fa-reply:hover, .fa-retweet:hover, .fa-star:hover, .fa-facebook-f:hover, .fa-twitter:hover {
+	color: orange;}
+.link-twitter:hover, .link-logo:hover{
+	color: white;}
+.all:hover, .branding:hover, .marketing:hover, .media:hover, .photography:hover, .print:hover, .web-design:hover{
+	border-width: 0.063rem;
+	border-style: solid;
+	border-color: #FE7E17;}
+.read-more:hover{
+	color: #444;
+	font-weight: 700;
+	font-size: 0.813rem;
+	line-height: 1.5rem;
+	text-transform: uppercase;
+	text-align: right;}
+.all:focus .branding:focus .marketing:focus .media:focus .photography:focus .print:focus .web-design:focus {
+	border-width: 0.063rem;
+	border-style: solid;
+	border-color: #FE7E17;}
+	.title-blog:hover{
+	font-weight: 700;
+	font-size: 1.25rem;
+	line-height: 1.625rem;
+	text-transform: uppercase;
+	color: #FE7E17;}
+
+/*grayscale*/
+.grayscale-john-doe:hover{
+	filter:grayscale(0%);
+	transition: all 0.3s;}
+.grayscale-john-doe{
+	filter: grayscale(100%);	}
+.grayscale-andrew-clark:hover{
+	filter:grayscale(0%);
+	transition: all 0.3s;}
+.grayscale-andrew-clark{
+	filter: grayscale(100%);}
+.grayscale-patrick-smith:hover{
+	filter:grayscale(0%);
+	transition: all 0.3s;}
+.grayscale-patrick-smith{
+	filter: grayscale(100%);}
+
+.grid{
+grid-template-areas: : 8 / 1 / 4 / 1; }
+
+/*Flex*/
+/*flex team*/
+.panel-team {
+display: flex;
+justify-content: center;
+align-items: center;}
+
+.container{
+display: flex; 
+flex-wrap: wrap;
+justify-content: space-around;}
+
+.panel-blog1{
+    display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	max-width: 300px;
+}
+
+.card-studio
+{
+    margin: auto;
+}
+
+.panel-blog2{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	max-width: 300px;
+}
+
+.center-services{
+	text-align: center;
+}
+
+.card-blog{
+justify-content: space-around;}
+
+.col{
+	column-count: 3;
+}
+
+.img-blog{
+max-width: 100%;
+height: auto;
+background-size: cover;}
+
+.panel-studio{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+}
+.panel-studio2{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+}
+.nav-work-flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+
